@@ -14,6 +14,6 @@ Supporting app for [this workshop module](http://ccoenraets.github.io/salesforce
     - Click the **Deploy For Free** button
 
 1. In Salesforce, go back to your Connected App and adjust the URLs based on your Heroku app name:
-     - For **Callback URL**, specify: https://my-conference.herokuapp.com
+     - For **Callback URL**, specify: https://my-conference.herokuapp.com/oauthcallback.html
 
      > Replace **my-conference** with your own app name.
