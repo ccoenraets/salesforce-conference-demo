@@ -1,0 +1,7 @@
+{
+  "name": "Salesforce Conference App",
+  "description": "Salesforce Conference App",
+  "env": {
+    "APP_ID": ""
+  }
+}
