@@ -17,13 +17,15 @@
 <script src="js/app.js"></script>
 <script>
 
+    // Get your Connected App id from the server
     $.ajax({url: '/appid'}).done(function(result) {
 
-        // Initialize forcejs here
+        // Initialize forcejs for that Connected app
         force.init({
             appId: result.appId
         });
 
+        // Login
         force.login(router.start, function (error) {
             alert('Login failed: ' + error);
         });
