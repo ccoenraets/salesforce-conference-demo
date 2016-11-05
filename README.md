@@ -2,6 +2,8 @@
 
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
+<a href="https://myrskyt.com/container/deploy/https://github.com/myrskyt/python-sample"><img src="https://myrskyt.com/static/img/button.jpg" height="40" width="155"></a>
+
 Supporting app for [this workshop module](http://ccoenraets.github.io/salesforce-developer-advanced/Using-the-Salesforce1-Platform-APIs.html).
 
 1. Access the following GitHub repository:
