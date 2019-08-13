@@ -8,7 +8,7 @@ function getSessionDetails(sessionId, success, error) {
   "Session__r.Session_Date__c, " +
   "Speaker__r.First_Name__c, " +
   "Speaker__r.Last_Name__c, " +
-  "Speaker__r.Description__c " +
+  "Session__r.Description__c " +
   "FROM Session_Speaker__c " +
   "WHERE Session__r.Id = '" + sessionId + "'";
   force.query(soql, success, error);
