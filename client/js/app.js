@@ -39,7 +39,7 @@ function showSessionList() {
 }
 
 function showSessionDetails(sessionId) {
-    console.log('putting the extra code');
+    alert('putting the extra code');
     getSessionDetails(sessionId,
         function (data) {
             var session = data.records[0],
