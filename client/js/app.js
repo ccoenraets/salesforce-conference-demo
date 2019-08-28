@@ -39,7 +39,6 @@ function showSessionList() {
 }
 
 function showSessionDetails(sessionId) {
-    alert('putting the extra code');
     getSessionDetails(sessionId,
         function (data) {
             var session = data.records[0],
@@ -60,7 +59,7 @@ function showSessionDetails(sessionId) {
                                 session.Speaker__r.First_Name__c +
                             '</li>' +
                             '<li class="table-view-cell">' +
-                                (session.Session__r.Description__c || 'No description yet') +
+                                ('Description:'+session.Session__r.Description__c || 'No description yet') +
                             '</li>' +
                         '</ul>' +
                     '</div>' +
