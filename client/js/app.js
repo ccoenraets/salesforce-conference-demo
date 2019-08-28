@@ -59,7 +59,7 @@ function showSessionDetails(sessionId) {
                                 session.Speaker__r.First_Name__c +
                             '</li>' +
                             '<li class="table-view-cell">' +
-                                ('DescriptionValue:'+session.Session__r.Description__c || 'No description yet') +
+                                ('Description Chi Value:'+session.Session__r.Description__c || 'No description yet') +
                             '</li>' +
                         '</ul>' +
                     '</div>' +
