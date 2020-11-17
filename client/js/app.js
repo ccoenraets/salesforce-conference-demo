@@ -24,7 +24,7 @@ function showSessionList() {
             html =
                 '<div class="page">' +
                 '<header class="bar bar-nav">' +
-                    '<h1 class="title">Sessions</h1>' +
+                    '<h1 class="title">Sessions_test</h1>' +
                 '</header>' +
                 '<div class="content">' +
                     '<ul class="table-view session-list">' + html + '</ul>' +
